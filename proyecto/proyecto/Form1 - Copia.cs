@@ -50,7 +50,7 @@ namespace SNAKE
                 comida.colocar();
                 cabeza.meter();
                 Puntaje++;//SOLO AGREGA UNO
-                punto.Text = Puntaje.ToString();//
+                puntos.Text = Puntaje.ToString();//
             }
 
         }
@@ -64,7 +64,7 @@ namespace SNAKE
         public void findejuego()
         {
             Puntaje = 0; 
-            punto.Text = "0";
+            puntos.Text = "0";
             ejex = true;
             ejey = true;
             xdir = 0;

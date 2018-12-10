@@ -33,7 +33,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.puntos = new System.Windows.Forms.Label();
             this.bucle = new System.Windows.Forms.Timer(this.components);
-            this.punto = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(828, 55);
+            this.label1.Location = new System.Drawing.Point(171, 330);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 41);
             this.label1.TabIndex = 1;
@@ -71,22 +70,11 @@
             this.bucle.Enabled = true;
             this.bucle.Tick += new System.EventHandler(this.bucle_Tick);
             // 
-            // punto
-            // 
-            this.punto.AutoSize = true;
-            this.punto.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.punto.Location = new System.Drawing.Point(884, 125);
-            this.punto.Name = "punto";
-            this.punto.Size = new System.Drawing.Size(27, 30);
-            this.punto.TabIndex = 3;
-            this.punto.Text = "0";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 411);
-            this.Controls.Add(this.punto);
+            this.ClientSize = new System.Drawing.Size(806, 411);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.canvas);
             this.Controls.Add(this.puntos);
@@ -106,7 +94,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label puntos;
         private System.Windows.Forms.Timer bucle;
-        private System.Windows.Forms.Label punto;
     }
 }
 

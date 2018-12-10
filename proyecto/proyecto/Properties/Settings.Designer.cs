@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace proyecto.Properties
+namespace SNAKE.Properties
 {
 
 
